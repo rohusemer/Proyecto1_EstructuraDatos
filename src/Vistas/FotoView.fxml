@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.FotoViewController">
+   <children>
+      <ImageView fx:id="centralImage" fitHeight="231.0" fitWidth="324.0" layoutX="19.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vistas/Imagenes/509563.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="62.0" layoutY="387.0" mnemonicParsing="false" onAction="#previous" text="Previous" />
+      <Button layoutX="229.0" layoutY="385.0" mnemonicParsing="false" onAction="#next" prefHeight="27.0" prefWidth="62.0" text="Next" />
+      <Label layoutX="80.0" layoutY="38.0" prefHeight="37.0" prefWidth="198.0" text="FotoCarrusel">
+         <font>
+            <Font name="Krungthep" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="388.0" layoutY="83.0" text="Fecha:" textFill="#171717">
+         <font>
+            <Font name="Lucida Grande" size="13.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datePicker" layoutX="479.0" layoutY="80.0" />
+      <Label layoutX="389.0" layoutY="141.0" text="Lugar:" textFill="#171717">
+         <font>
+            <Font name="Lucida Grande" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtLugar" layoutX="479.0" layoutY="138.0" prefHeight="27.0" prefWidth="194.0" style="-fx-background-radius: 0;" />
+      <Label layoutX="389.0" layoutY="201.0" text="Descripcion:" textFill="#171717">
+         <font>
+            <Font name="Lucida Grande" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDescripcion" layoutX="478.0" layoutY="197.0" prefHeight="27.0" prefWidth="194.0" style="-fx-background-radius: 0;" />
+      <Label layoutX="392.0" layoutY="300.0" text="Etiquetas:" textFill="#171717">
+         <font>
+            <Font name="Lucida Grande" size="13.0" />
+         </font>
+      </Label>
+      <Separator layoutX="363.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="4.0" />
+      <ListView fx:id="etiquetasListView" layoutX="475.0" layoutY="257.0" prefHeight="129.0" prefWidth="200.0" />
+      <Button layoutX="537.0" layoutY="423.0" mnemonicParsing="false" onAction="#actualizarFoto" text="Actualizar" />
+      <Label layoutX="535.0" layoutY="40.0" text="Info" textFill="#171717">
+         <font>
+            <Font name="Heiti TC Light" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

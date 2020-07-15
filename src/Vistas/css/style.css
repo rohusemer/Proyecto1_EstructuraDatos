@@ -1,0 +1,75 @@
+/* Navigation links */
+.navigation-hyperlink {
+    -fx-text-fill: white;
+    -fx-border-color: #888;
+    -fx-border-width: 1 0 0 0;
+}
+
+.navigation-hyperlink:visited {
+    -fx-text-fill: white;
+    -fx-border-style: none;
+    -fx-underline: false;
+}
+
+.navigation-hyperlink:hover {
+    -fx-underline: false;
+    -fx-text-fill: white;
+    -fx-background-color: #555;
+}
+
+.navigation-hyperlink:focused {
+    -fx-underline: false;
+    -fx-background-color: #4286f4;
+}
+
+/* Button rules */
+.my-button {
+    -fx-text-fill: white;
+    -fx-background-color: #4286f4;
+    -fx-background-radius: 0;
+}
+
+.my-button2 {
+    -fx-text-fill: white;
+    -fx-background-color: #888;
+    -fx-background-radius: 0;
+}
+.my-button2:hover {
+    -fx-background-color: #6ba3ff;
+}
+
+.my-button:hover {
+    -fx-background-color: #6ba3ff;
+}
+
+/* Library tiles */
+.library-tiles {
+    -fx-underline: false;
+    -fx-text-fill: black;
+    -fx-padding: 8;
+}
+
+.library-tiles:hover {
+    -fx-underline: false;
+    -fx-text-fill: white;
+    -fx-background-color: #6ba3ff;
+}
+
+.big-check-box > .box {
+    -fx-padding: 0.40em 0.40em 0.55em 0.55em;
+    -fx-background-color: white;
+}
+.big-check-box > .box > .mark {
+    -fx-padding: 0.416667em 0.416667em 0.5em 0.5em;
+
+}
+.red_button{
+    -fx-background-color: white ;
+    -fx-text-fill: black;
+    -fx-font-family: impact;
+    -fx-font-size: 20px;
+    -fx-background-radius: 16px;
+}
+
+
+
