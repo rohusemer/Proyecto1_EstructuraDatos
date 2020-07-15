@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="leftPanel" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.LeftPanelController">
+   <children>
+      <Accordion prefHeight="612.0" prefWidth="222.0">
+         <panes>
+            <TitledPane animated="false" text="Personas">
+               <content>
+                  <VBox>
+                     <children>
+                        <ListView fx:id="listViewPersonas" prefHeight="508.0" prefWidth="199.0" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Albumes">
+               <content>
+                  <VBox>
+                     <children>
+                        <ListView fx:id="listViewAlbumes" prefHeight="508.0" prefWidth="199.0" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Resultados">
+               <content>
+                  <VBox>
+                     <children>
+                        <ListView fx:id="listViewResultados" prefHeight="508.0" prefWidth="199.0" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+         </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

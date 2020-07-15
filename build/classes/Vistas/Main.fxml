@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="982.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.MainController">
+   
+    
+   <children>
+      <SplitPane dividerPositions="0.23336745138178097, 0.7553735926305015" focusTraversable="true" prefHeight="614.0" prefWidth="982.0">
+         <items>
+            <fx:include fx:id="leftPanel" source="LeftPanel.fxml" />
+            <fx:include fx:id="centralPanel" source="CentralPanel.fxml" />
+            <fx:include fx:id="rightPanel" source="RightPanel.fxml" />
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
