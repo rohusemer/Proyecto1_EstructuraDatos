@@ -1,1 +1,2 @@
-# Proyecto1_EstructuraDatos
+# Picasa albun de fotos
+Este Proyecto consiste en el uso de listas enlazadas. doblemente enlazadas, circulares.
